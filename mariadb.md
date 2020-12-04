@@ -22,8 +22,8 @@
 	- `show databases;`
 	- `create user username@localhost identified by 'password';`
 	- `select user from mysql.user;`
-	- grant all privileges on db_name.* to user@localhost identified by 'password';`
-	- flush privileges;
+	- `grant all privileges on db_name.* to user@localhost identified by 'password';`
+	- `flush privileges;`
 
 ### Remove users and databases
 
